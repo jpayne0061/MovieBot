@@ -200,9 +200,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\MovieBot.Context.mdf" />
-    <Content Include="App_Data\MovieBot.Context_log.ldf">
-      <DependentUpon>MovieBot.Context.mdf</DependentUpon>
+    <Content Include="App_Data\DBForQuestions.mdf" />
+    <Content Include="App_Data\DBForQuestions_log.ldf">
+      <DependentUpon>DBForQuestions.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
