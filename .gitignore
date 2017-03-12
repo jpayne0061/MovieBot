@@ -237,3 +237,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/MovieBot/App_Data/DBForQuestions.mdf
+/MovieBot/App_Data/DBForQuestions_log.ldf
