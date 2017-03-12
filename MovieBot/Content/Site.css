@@ -1,0 +1,198 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+}
+
+
+#chat-div {
+    /*position: fixed;
+    bottom: 0;
+    right: 0;*/
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    background-color: #eee;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    /*display: none;*/
+    
+}
+
+#js-chat-input {
+    display: inline-block;
+    margin: 0;
+    height: 43px;
+    width: 453px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#chat-input {
+    /*position: fixed;
+    bottom: 0;*/
+    
+}
+
+#js-send-chat-message {
+    float: right;
+    padding: 11px 5px;
+    margin:0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#js-exit-chat {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: 10000;
+    font-size: 15px;
+    padding-left: 0;
+}
+
+#js-maximize-chat {
+    position: absolute;
+    top: 3px;
+    right: 23px;
+    z-index: 10000;
+    font-size: 15px;
+    color:#bbb; 
+    /*display: none;*/
+}
+
+#js-maximize-chat:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.js-hide {
+    display: none;
+}
+
+#js-minimize-chat {
+    position: absolute;
+    top: 3px;
+    right: 23px;
+    z-index: 10000;
+    font-size: 15px;
+    color:#bbb; 
+}
+
+#js-minimize-chat:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+
+#js-exit-chat:hover {
+    cursor: pointer;
+    color: #FA6169;
+}
+
+
+#js-messages-holder {
+    position: relative;
+    height: 320px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-bottom: 35px;
+    overflow-y: auto;
+}
+
+#end-chat-message{
+    margin-top: 15px;
+}
+
+#chat-header {
+    position: relative;
+    
+    height: 30px;
+    font-weight: 600;
+    background-color: #3b3b3b;
+    color: #eee;
+    text-align: center;
+
+}
+
+#chat-header-name {
+    padding: 5px 0;
+}
+
+.hide-chat {
+    height: 30px; 
+}
+
+.show-chat {
+    height: 400px;
+}
+
+
+.green-message {
+    background-color: #00DB33;
+    border: 2px solid #e8e8e8;
+    max-width: 180px;
+    height: auto;
+    color: white;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.green-message + div {
+    color: #757575;
+    font-style:italic;
+}
+
+.blue-message {
+    background-color: blue;
+    border: 2px solid #e8e8e8;
+    
+    max-width: 180px;
+    height: auto;
+    color: white;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.blue-message + div {
+    color: #757575;
+    font-style:italic;
+}
+
+.float-right {
+    float: right;
+}
+
+#title {
+    margin: 0 auto;
+    width: 180px;
+
+}
+
+
+#title>h1 {
+    font-size: 2.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: #757575;
+}
