@@ -1,6 +1,13 @@
 # MovieBot
 chat with a bot that is programmed to answer questions that appeared in movie scripts
 
+#How can I run this app?
+1. You will need visual studio
+2. Clone this repo
+3. Download this file from dropbox(it's over the size limit for github) https://www.dropbox.com/s/71kb7ra14c42hyq/DBForQuestions.mdf?dl=0
+4. Place this file in your App_Data folder
+5. Run the app!
+
 
 #How was this made?
 
