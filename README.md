@@ -1,6 +1,8 @@
 # MovieBot
 chat with a bot that is programmed to answer questions that appeared in movie scripts
 
+
+#ATTENTION: I am still working on how to get the database to work, these instructions may not work
 #How can I run this app?
 1. You will need visual studio
 2. Clone this repo
